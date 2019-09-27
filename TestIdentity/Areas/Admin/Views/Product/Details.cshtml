@@ -1,0 +1,47 @@
+﻿@model Company.DataLayer.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<hr />
+<div>
+    <table class="table">
+        <tr>
+            <td>Product Name</td>
+            <td>@Model.ProductName</td>
+        </tr>
+        <tr>
+            <td>Price </td>
+            <td>@Model.Price</td>
+        </tr>
+        <tr>
+            <td>Purchase</td>
+            <td>@Model.DateOfPurchase</td>
+        </tr>
+        <tr>
+            <td>Available</td>
+            <td>@Model.AvailabilityStatus</td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>@Model.Category.CategoryName</td>
+        </tr>
+        <tr>
+            <td>Brand</td>
+            <td>@Model.Brand.BrandName</td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>@Model.Active</td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td><img src="data:image;base64,@Model.photo" width="60px;" /></td>
+        </tr>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index", "Product", new { Area = "Admin" })
+</p>

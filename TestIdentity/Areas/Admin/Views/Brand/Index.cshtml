@@ -1,0 +1,20 @@
+﻿@model List<Company.DataLayer.Brand>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <td>Brand ID</td>
+        <td>Brand Name</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BrandID</td>
+            <td>@item.BrandName</td>
+        </tr>
+    }
+</table>

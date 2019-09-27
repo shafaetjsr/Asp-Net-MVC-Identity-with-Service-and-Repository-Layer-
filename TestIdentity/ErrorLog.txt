@@ -1,0 +1,9 @@
+MessageNullable object must have a value.,Type System.InvalidOperationException,Sourcemscorlib
+Message No connection string named 'dbconeection' could be found in the application config file.,Type System.InvalidOperationException,Source EntityFramework
+Message Unable to load the specified metadata resource.,Type System.Data.Entity.Core.MetadataException,Source EntityFramework
+Message No connection string named 'EFDBFirstDatabaseEntities' could be found in the application config file.,Type System.InvalidOperationException,Source EntityFramework
+Message C:\Users\shafaet\AppData\Local\Temp\Temporary ASP.NET Files\vs\7985b5c3\70b82a8a\App_Web_index.cshtml.da937781.yridciqn.0.cs(30): error CS0234: The type or namespace name 'Models' does not exist in the namespace 'TestIdentity' (are you missing an assembly reference?),Type System.Web.HttpCompileException,Source System.Web
+Message A public action method 'Details' was not found on controller 'TestIdentity.Controllers.ProductController'.,Type System.Web.HttpException,Source System.Web.Mvc
+Message An error occurred when trying to create a controller of type 'TestIdentity.Controllers.ProductController'. Make sure that the controller has a parameterless public constructor.,Type System.InvalidOperationException,Source System.Web.Mvc
+Message An error occurred when trying to create a controller of type 'TestIdentity.Controllers.ProductController'. Make sure that the controller has a parameterless public constructor.,Type System.InvalidOperationException,Source System.Web.Mvc
+Message An error occurred when trying to create a controller of type 'TestIdentity.Controllers.ProductController'. Make sure that the controller has a parameterless public constructor.,Type System.InvalidOperationException,Source System.Web.Mvc

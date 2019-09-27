@@ -1,0 +1,28 @@
+﻿@model List<TestIdentity.Identity.ApplicationUser>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>User</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Date OF Birth</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.City</td>
+            <td>@item.Country</td>
+            <td>@item.Birthday</td>
+        </tr>
+    }
+</table>

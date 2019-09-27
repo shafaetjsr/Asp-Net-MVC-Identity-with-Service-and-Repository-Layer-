@@ -1,0 +1,33 @@
+﻿@model TestIdentity.Identity.ApplicationUser
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+
+<table class="table table-hover">
+    <tr>
+        <td>User Name</td>
+        <td>@Model.UserName</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <td>Mobile</td>
+        <td>@Model.PhoneNumber</td>
+    </tr>
+    <tr>
+        <td>Date Of Birth</td>
+        <td>@Model.Birthday.Value.ToString("dd/MMM/yyyy")</td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td>@Model.City</td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td>@Model.Country</td>
+    </tr>
+</table>
